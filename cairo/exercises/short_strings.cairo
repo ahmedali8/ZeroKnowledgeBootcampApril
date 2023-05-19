@@ -1,7 +1,5 @@
 // Fill in the rest of the line that has code missing!
 
-// I AM NOT DONE
-
 use debug::PrintTrait;
 
 fn main() {
@@ -22,7 +20,7 @@ fn main() {
         ('Neither alphabetic nor numeric!').print();
     }
 
-    let second // Finish this line like the example! Try number, single character, string.
+    let mut second = 1; // Finish this line like the example! Try number, single character, string.
     if is_alphabetic(
         ref second
     ) {
